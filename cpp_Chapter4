@@ -6,7 +6,7 @@
 
 using namespace std;
 
-void example3() {
+void example3() { //문자열에서 a가 몇개인지 찾아내기 
 	string str;
 
 	cout << "문자열 입력 >>";
@@ -28,7 +28,7 @@ void example3() {
 
 }
 
-void example5() {
+void example5() { // 문자열에서 문자 하나 바꾸기
 	string str;
 
 	int StartIndex = 0;
@@ -62,7 +62,7 @@ void example5() {
 
 }
 
-class Person {
+class Person { //Simpson가 이름 바꿔주기 
 	string name;
 
 public:
@@ -124,7 +124,7 @@ FamilyManger::FamilyManger() {
 	delete simpson;
 }
 
-class Histogram {
+class Histogram { // 문자열 이어붙이기 
 	string strText;
 public:
 	Histogram(string text);
@@ -214,7 +214,7 @@ HistogramManger::HistogramManger() {
 
 }
 
-class Player {
+class Player { // 두명이서 이름 입력하고 
 	string name[2];
 public:
 	Player() { this->name[0] = "null"; this->name[1] = "null"; }
