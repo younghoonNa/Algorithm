@@ -13,7 +13,7 @@ cin >> hex >> result;
 </p>
 
 <p>
-  #include <sstream> 쓰는법 <br>
+  #include <"sstream"> 쓰는법 <br>
   -> 문자열 하나 받아서 공백 단위로 쪼갤 때 사용. <br>
   stringstream orgNum(str); <br>
   orgNum >> t >> a >> b >> c; <br>
