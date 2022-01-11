@@ -11,3 +11,10 @@ cin >> hex >> result;
    struct tm *time = localtime(&current_time); <br>
   여기서 time->tm_year +1900 , time->tm_mon+1 , time->tm_mday 와 같은 형식으로 활용
 </p>
+
+<p>
+  #include <sstream> 쓰는법 <br>
+  -> 문자열 하나 받아서 공백 단위로 쪼갤 때 사용. <br>
+  stringstream orgNum(str); <br>
+  orgNum >> t >> a >> b >> c; <br>
+</p>
