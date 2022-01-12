@@ -25,4 +25,4 @@ cin >> hex >> result;
 
 ---
 C++ 자료형
-![image](https://user-images.githubusercontent.com/38518648/149058429-e6bb0dce-eea3-4adc-a0af-c61e7bcd7a61.png)
+ <img width="50%" src="https://user-images.githubusercontent.com/38518648/149058429-e6bb0dce-eea3-4adc-a0af-c61e7bcd7a61.png"/>
