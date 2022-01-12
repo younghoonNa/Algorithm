@@ -22,3 +22,7 @@ cin >> hex >> result;
   stringstream orgNum(str); <br>
   orgNum >> t >> a >> b >> c; <br>
 </p>
+
+---
+C++ 자료형
+![image](https://user-images.githubusercontent.com/38518648/149058429-e6bb0dce-eea3-4adc-a0af-c61e7bcd7a61.png)
