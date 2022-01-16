@@ -2,7 +2,7 @@
 
 ## 주로 백준 문제를 풀며 알아가는 내용을 업데이트 합니다.
 
-![티스토리]https://187cm.tistory.com/ 에도 종종 올라가요.
+[티스토리]https://187cm.tistory.com/ 에도 종종 올라가요.
 
 ---
 ios_base::sync_with_stdio(false); <br>
