@@ -1,3 +1,10 @@
+/*
+
+에라토스테네스의 체의 시간복잡도는 O(NloglogN) 이다
+
+*/
+
+
 #include <iostream>
 #include <stdio.h>
 #include <vector>
