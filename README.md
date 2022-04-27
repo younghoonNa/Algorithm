@@ -1,6 +1,8 @@
 # Cpp_source
 
 ## 주로 백준 문제를 풀며 알아가는 내용을 업데이트 합니다.
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=yh07282828)](https://solved.ac/yh07282828/)
+
 
 [티스토리](https://187cm.tistory.com/) 에도 종종 올라가요.
 
