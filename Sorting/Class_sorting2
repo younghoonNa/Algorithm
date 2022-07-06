@@ -1,0 +1,21 @@
+# 여러개의 우선순위를 두고 작업할 경우 다음과 같이 가능
+# 내림차순일 경우 -를 앞에 붙여주어 내림차순 정렬 가능
+
+n = int(input())
+
+class User():
+    def __init__(self, name, kor, eng, math):
+        self.name = name
+        self.kor = kor
+        self.eng = eng
+        self.math = math
+
+result = []
+for _ in range(n):
+    name, kor, eng, math = input().split()
+    result.append(User(name, int(kor), int(eng), int(math)))
+
+result.sort(key= lambda x: (-x.kor, -x.eng, -x.math))
+
+for element in result:
+    print(element.name, element.kor, element.eng, element.math)
