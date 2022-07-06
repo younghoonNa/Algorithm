@@ -1,0 +1,20 @@
+# 파이썬에서 클래스를 통해 객체를 만들고 객체를 정렬해야 하는 이유
+# -> 2개 이상의 Data type이 들어갈 경우 정렬시 어려움을 겪음
+# Object.sort(key = lambda x : x.feature) 와 같이 lambda를 통한 정렬을 통해 쉽게 문제를 해결이 가능함.
+
+class User:
+    def __init__(self, name, height, weight):
+        self.name = name
+        self.height = height
+        self.weight = weight
+
+person = []
+n = int(input())
+for _ in range(n):
+    name, height, weight = input().split()
+    person.append(User(name, int(height), int(weight)))
+
+person.sort(key = lambda x : x.height)
+
+for element in person:
+    print(element.name, element.height, element.weight)
