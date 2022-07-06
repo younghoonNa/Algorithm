@@ -12,8 +12,9 @@ class User():
 
 result = []
 for _ in range(n):
-    name, kor, eng, math = input().split()
-    result.append(User(name, int(kor), int(eng), int(math)))
+    name, *scores = input().split()
+    kor, eng, math = map(int, scores)
+    result.append(User(name, kor, eng, math))
 
 result.sort(key= lambda x: (-x.kor, -x.eng, -x.math))
 
