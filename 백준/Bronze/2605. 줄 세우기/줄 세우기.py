@@ -1,12 +1,17 @@
-from collections import deque #회전큐로 구현
+import sys
+input = sys.stdin.readline
+n = int(input())
+arr = list(map(int, input().split()))
 
-N = int(input())
-student = list(map(int, input().split())) 
-result = deque()
+result = []
+for i in range(0, n):
+    w = i - arr[i]# 삽입 위치
+    result = result[:w] + [i+1] + result[w:]
 
-for std, move in enumerate(student):
-    result.rotate(move) #오른쪽으로 돌림
-    result.append(std + 1) #사람 추가
-    result.rotate(-move) #왼쪽으로 원상복구
 
-print(*result)
+
+print(result)
+'''
+5
+0 1 1 3 2
+'''
